@@ -29,8 +29,8 @@
     // let c = "11";
     // console.log(c + 1);
 
-    let x = 8;
-    console.log(x/6);
+    // let x = 8;
+    // console.log(x/6);
 
 
 // let Number;
@@ -44,3 +44,13 @@
 
 // var box = "2015";
 // console.log(box);
+
+
+// let b = +prompt("siz necha yosh");
+// let a = +prompt("qaysi oy");
+// let c = b -2025;
+// alert ("siz"+Number(c + a)+ "yosh siz");
+
+
+let a = "5"
+console.log()
