@@ -52,5 +52,38 @@
 // alert ("siz"+Number(c + a)+ "yosh siz");
 
 
-let a = "5"
-console.log()
+// let a = "5"
+// console.log()
+
+
+
+// let radius = Math.floor(Math.random(2) * 100 + 1);
+// console.log(radius);
+let radius = +prompt(Math.floor(Math.random(2) * 100 + 1));
+let yuzi = Math.PI * radius;
+let uzunligi = Math.PI * yuzi;
+
+
+let firstyuzi = yuzi.toFixed(2);
+let firstuzunligi = uzunligi.toFixed(2);
+
+
+console.log(`radius *${radius}`);
+console.log(`yuzi *${firstyuzi}`);
+console.log(`uzunligi *${firstuzunligi}`);
+
+alert('radius='+radius.toFixed());
+
+alert('yuzi='+yuzi.toFixed());
+
+alert('uzunligi='+uzunligi.toFixed())
+
+
+alert('Perimetr='+radius.toFixed()+yuzi.toFixed()+uzunligi.toFixed());
+
+
+// let radius = 27.679236;
+// radius = 27
+// let doira = radius.toFixed();
+// console.log(doira);
+
